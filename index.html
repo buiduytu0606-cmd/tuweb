@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gốm Sứ Chu Đậu - Demo Responsive</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@30…00;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Thanh top mỏng như ảnh mẫu -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-menu">
+                <a href="./index.html" class="active">TRANG CHỦ</a> |
+                <a href="./baiviet.html">GIỚI THIỆU</a> |
+                <a href="./sanpham.html">SẢN PHẨM</a> |
+                <a href="./lienhe.html">LIÊN HỆ</a> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Khu logo + tìm kiếm -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center g-3">
+                <div class="col-12 col-md-4 d-flex align-items-center logo">
+                    <img src="img/logo.png" alt="Gốm Sứ Chu Đậu" class="me-3" />
+                    <div class="logo-text">
+                        <h2 class="mb-0">Gốm Sứ Chu Đậu</h2>
+                        <span>Thế Kỷ XII – XIII</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5">
+                    <form class="d-flex search-bar" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Bạn muốn tìm gì ?" aria-label="Search" />
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <span class="bi bi-search">&#128269;</span>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-3 d-flex justify-content-md-end align-items-center gap-3">
+                    <div class="hotline d-flex align-items-center">
+                        <span class="phone-icon me-2">&#128222;</span>
+                        <div>
+                            <strong>TƯ VẤN BÁN HÀNG</strong><br>
+                            <span class="phone-number">0964.124.456</span>
+                        </div>
+                    </div>
+                    <div class="cart fs-3">
+                        &#128722;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu chính: Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-menu">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="./index.html">Gốm Sứ Chu Đậu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sanpham.html">SẢN PHẨM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./baiviet.html">GIỚI THIỆU</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-inner">
+            <h1>Tinh hoa gốm Việt — Từ bàn tay nghệ nhân Chu Đậu</h1>
+
+            <a class="btn" href="#products">Xem sản phẩm</a>
+        </div>
+    </section>
+
+    <section class="features container features">
+        <div class="feat-grid">
+            <div class="feat">
+                <div class="icon">🚚</div>
+                <div class="title">Giao hàng nhanh</div>
+                <p class="muted">Hỗ trợ vận chuyển toàn quốc</p>
+            </div>
+            <div class="feat">
+                <div class="icon">🔒</div>
+                <div class="title">Thanh toán an toàn</div>
+                <p class="muted">Nhiều phương thức</p>
+            </div>
+            <div class="feat">
+                <div class="icon">📞</div>
+                <div class="title">Hỗ trợ 24/7</div>
+                <p class="muted">Tư vấn, bảo hành</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="about" class="about">
+            <img src="img/4binh chu dau.png" alt="Gốm Chu Đậu">
+            <div class="about-content">
+                <h2>Gốm Sứ Chu Đậu</h2>
+                <p class="muted">Gốm Chu Đậu — di sản gốm sứ Việt Nam từ thế kỷ XIV. Mỗi sản phẩm là sự kết hợp giữa giá
+                    trị truyền thống và nghệ thuật hiện đại, tôn vinh nét đẹp văn hóa Việt.</p>
+                <p><a class="btn" href="#products">Xem thêm</a></p>
+            </div>
+        </section>
+        <h2 class="section">Danh Mục Sản Phẩm</h2>
+        <div class="categories">
+            <div class="cat-row">
+                <div class="cat"><img src="img/binh hut loc.png" alt="">
+                    <div style="padding:8px 0;font-weight:600">Bình Hút Lộc</div>
+                </div>
+                <div class="cat"><img src="img/gom chu dau.png" alt="">
+                    <div style="padding:8px 0;font-weight:600">Gốm Chu Đậu</div>
+                </div>
+                <div class="cat"><img src="img/binh hoa.png" alt="">
+                    <div style="padding:8px 0;font-weight:600">Bình Hoa</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <h2 id="products" class="section">Sản Phẩm Mới</h2>
+        <section class="products">
+            <div class="grid">
+                <!-- product card x8 sample -->
+                <article class="card">
+                    <img src="img/anh home1.png" alt="Sản phẩm 1">
+                    <div style="padding-top:8px;font-weight:600">Bình Phúc Lộc Vẽ Vàng 24k </div>
+                    <div class="price">1.250.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home2.png" alt="Sản phẩm 2">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút Lộc Tứ Cảnh H24</div>
+                    <div class="price">900.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home3.png" alt="Sản phẩm 3">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút Lộc Thuận Buồm Xuôi Gió</div>
+                    <div class="price">1.800.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home4.png" alt="Sản phẩm 4">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút Lộc Hoa Sen </div>
+                    <div class="price">2.200.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home5.png" alt="Sản phẩm 5">
+                    <div style="padding-top:8px;font-weight:600">bình hút lộc công đào</div>
+                    <div class="price">650.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home6.png" alt="Sản phẩm 6">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút lộC Thần Kê</div>
+                    <div class="price">980.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home7.png" alt="Sản phẩm 7">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút lộC Tứ Cảnh H25</div>
+                    <div class="price">1.350.000₫</div>
+                </article>
+
+                <article class="card">
+                    <img src="img/anh home8.png" alt="Sản phẩm 8">
+                    <div style="padding-top:8px;font-weight:600">Bình Hút lộC Mã Vàng</div>
+                    <div class="price">1.050.000₫</div>
+                </article>
+
+            </div>
+
+            <div style="text-align:center;margin-top:18px"><a class="btn" href="#">Xem tất cả</a></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Cột 1 -->
+                <div class="col">
+                    <h4>Về chúng tôi</h4>
+                    <p>Website chuyên cung cấp dịch vụ và thông tin chất lượng.</p>
+                </div>
+
+                <!-- Cột 2 -->
+                <div class="col">
+                    <h4>Liên hệ</h4>
+                    <ul>
+                        <li>Email: nhomdoanweb15@gmail.com</li>
+                        <li>Hotline: 0964.124.456</li>
+                        <li>Địa chỉ: tP vinh, Nghệ An</li>
+                    </ul>
+                </div>
+
+                <!-- Cột 3 -->
+                <div class="col">
+                    <h4>Dịch vụ</h4>
+                    <ul>
+                        <li>Thiết kế web</li>
+                        <li>Lập trình ứng dụng</li>
+                        <li>Tư vấn IT</li>
+                    </ul>
+                </div>
+
+                <!-- Cột 4 -->
+                <div class="col">
+                    <h4>Theo dõi chúng tôi</h4>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
